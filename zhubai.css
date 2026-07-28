@@ -1,13 +1,12 @@
 :root {
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
-    --bg-color: #fafafa;
 }
 
 html {
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
-    background-color: #fafafa;
+    background-color: transparent;
 }
 
 body {
@@ -16,7 +15,13 @@ body {
         'Segoe UI Emoji', sans-serif;
     color: #363636;
     line-height: 1.6;
+    --bg-color: #fafafa;
     background-color: #fafafa;
+}
+
+body.typora-print {
+    --bg-color: #fff;
+    background-color: #fff;
 }
 
 #write {
